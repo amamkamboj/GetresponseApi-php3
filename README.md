@@ -1,7 +1,7 @@
 # Getresponse-Api3-php
 
-How to add contacts into campaigns or lists
-
+##How to add contacts into campaigns or lists
+```
 function httpAddContactToGetresponse($email,$name,$campaignId)
 {
   $url = "https://api.getresponse.com/v3/contacts";
@@ -25,7 +25,7 @@ function httpAddContactToGetresponse($email,$name,$campaignId)
   curl_close ($ch);
   return $server_output;
 }
-
+```
 
 
 #Need any help, contact me : amankamboj2387@gmail.com
